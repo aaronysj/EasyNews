@@ -1,0 +1,19 @@
+<include file="Public/header" title="新闻分类" />
+
+<div class="classify">
+
+<div class="clearfix">
+        <div class="newslist">
+            <div class="blockclassify">
+                
+                <foreach name="model" item="v">
+                	<ul>
+                    	<li><a href="{:U('post/detail?id=')}{$v.id}">{$v.title}</a><span class="indextime">{$v.time|date="[Y-m-d]",###}</span></li>
+                	</ul>
+                </foreach>
+            </div>
+        </div>
+</div>
+
+</div>
+<include file="Public/footer" />

@@ -1,0 +1,19 @@
+<include file="Public/header" title="搜索结果" />
+
+<div class="classify">
+
+<div class="clearfix">
+        <div class="newslist">
+            <div class="blockclassify">
+                
+                <foreach name="search" item="s">
+                	<ul>
+                    	<li><a href="{:U('post/detail?id=')}{$s.id}">{$s.title}</a><span class="indextime">{$s.time|date="[Y-m-d]",###}</span></li>
+                	</ul>
+                </foreach>
+            </div>
+        </div>
+</div>
+
+</div>
+<include file="Public/footer" />

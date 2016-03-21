@@ -1,0 +1,62 @@
+<include file="Public/header" title="我的新闻" />
+    <div class="slide clearfix">
+        <div class="slideimg"><a href="{:U('post/detail?id=25')}">
+        <img src="__STATIC__/img/2.jpg" />
+        </div>
+        <div class="slidecontent">
+            <h1>国家主席习近平访英</h1>
+            <p>国家主席习近平宣告同英国"全球全面战略伙伴关系"，第一步将是中方对英国一代人以来首座新建核电厂投资60亿英镑。各方期待已久的这笔投资将启动欣克利角(Hinkley Point)反应堆建设。与此同时，习近平昨日下午与英国首相戴维•卡梅伦(David Cameron)在唐宁街首相府会晤。在会后举行的新闻发布会上，英国首相和中国国家主席发表了事先准备好的简短讲话，聚焦于两国构建更紧密关系的经济效益。卡梅伦宣告英中关系进入“新时代”，两国在多个项目上开展合作，包括廉价钢材供应过度问题...</p></a>
+        </div>
+    </div>
+
+    <div class="clearfix">
+        <div class="newslist">
+            <div class="block1 block">
+                <div class="subtitle">热门</div>
+                <hr>
+                <foreach name="hot" item="h">
+                <ul>
+                    <li><a href="{:U('post/detail?id=')}{$h.id}">{$h.title|mb_substr=0,20}</a><span class="indextime">{$h.time|date="[m-d]",###}</span></li>
+                </ul>
+                </foreach>
+            </div>
+        </div>
+        
+        <div class="newslist">
+            <div class="block2 block">
+                <div class="subtitle">校内</div>
+                <hr>
+                <foreach name="school" item="s">
+                <ul>
+                    <li><a href="{:U('post/detail?id=')}{$s.id}">{$s.title|mb_substr=0,20}</a><span class="indextime">{$s.time|date="[m-d]",###}</span></li>
+                </ul>
+                </foreach>
+            </div>
+        </div>
+
+        <div class="newslist">
+            <div class="block3 block">
+                <div class="subtitle">国内</div>
+                <hr>
+                <foreach name="domestic" item="d">
+                <ul>
+                    <li><a href="{:U('post/detail?id=')}{$d.id}">{$d.title|mb_substr=0,20}</a><span class="indextime">{$d.time|date="[m-d]",###}</span></li>
+                </ul>
+                </foreach>
+            </div>
+        </div>
+
+        <div class="newslist">
+            <div class="block4 block">
+                <div class="subtitle">国际</div>
+                <hr>
+                <foreach name="abroad" item="a">
+                <ul>
+                    <li><a href="{:U('post/detail?id=')}{$a.id}">{$a.title|mb_substr=0,20}</a><span class="indextime">{$a.time|date="[m-d]",###}</span></li>
+                </ul>
+                </foreach>
+            </div>
+        </div>
+    </div>
+
+<include file="Public/footer" />

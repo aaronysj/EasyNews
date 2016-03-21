@@ -1,0 +1,10 @@
+[ 2016-03-09T20:46:28+08:00 ] ::1 /MyNews/index.php
+ERR: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+
+
+[ 2016-03-09T20:48:29+08:00 ] ::1 /mynews/index.php?m=&c=post&a=index
+ERR: 无法加载控制器:Post
+
+[ 2016-03-09T20:48:39+08:00 ] ::1 /mynews/index.php?m=&c=post&a=classify&type=2
+ERR: 无法加载控制器:Post
+

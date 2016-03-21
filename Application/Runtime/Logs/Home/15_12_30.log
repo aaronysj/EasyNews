@@ -1,0 +1,18 @@
+[ 2015-12-30T10:29:55+08:00 ] ::1 /mynews/index.php?m=&c=post&a=index
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2015-12-30T10:58:07+08:00 ] ::1 /mynews/index.php?m=&c=post&a=search
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+
+[ 2015-12-30T10:59:29+08:00 ] ::1 /mynews/index.php?m=&c=post&a=search
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+
+[ 2015-12-30T11:04:13+08:00 ] ::1 /mynews/index.php?m=&c=post&a=search
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'id' at line 1
+
+[ 2015-12-30T11:17:34+08:00 ] ::1 /mynews/index.php?m=&c=post&a=detail&id=
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+
+[ 2015-12-30T11:17:44+08:00 ] ::1 /mynews/index.php?m=&c=post&a=detail&id=
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+

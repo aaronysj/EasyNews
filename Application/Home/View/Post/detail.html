@@ -1,0 +1,17 @@
+<include file="Public/header" title="新闻-详情" />
+    <div class="detail" >
+        <foreach name="preshow" item="pre">
+            <div class="pre"><a href="{:U('post/detail?id=')}{$pre.id}"><<上一篇：{$pre.title|mb_substr=0,10}</a></div>
+        </foreach>
+        <foreach name="nextshow" item="next">
+            <div class="next"><a href="{:U('post/detail?id=')}{$next.id}">下一篇：{$next.title|mb_substr=0,10}>></a></div>
+        </foreach>
+
+        <foreach name="model" item="v">
+            <h2>{$v.title}</h2>
+            <div class="date">{$v.time|date="Y/m/d",###}</div>
+            {$v.content|htmlspecialchars_decode|stripslashes}<br/>
+        </foreach> 
+    </div>
+
+<include file="Public/footer" />

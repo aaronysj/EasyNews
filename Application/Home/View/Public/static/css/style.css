@@ -1,0 +1,267 @@
+body{
+	background-color: ;
+}
+.banner{
+	color: #183E50;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 40px;
+}
+.banner a{
+	text-decoration: none;
+	font-family: microsoft yahei;
+	color: #183E50;
+}
+.clearfix:after {
+	height: 0;
+	display: block;
+	visibility: hidden;
+	clear: both;
+	content:"";
+
+}
+.wrapper {
+	width: 85%;
+	margin: 0 auto;
+	/*min-height: 800px;*/
+}
+
+.navigation ul{
+	width: 70%;
+	margin: 0 auto;
+	padding-left: 10%; 
+}
+.navigation ul li {
+	display: inline-block;
+	margin-right: 65px;
+}
+
+.navigation ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	font-family: microsoft yahei;
+}
+
+.navigation {
+	width: 100%;
+	height: 44px;
+	background-color: #183E50;
+	line-height: 44px;
+	border-radius: 6px;
+	margin-top: 5px;
+}
+
+.slideimg {
+	width: 72.2%;
+	margin-top: 5px;
+	/*border: 1px solid #ccc;*/
+	border-radius: 5px;
+	float: left;
+	/*box-shadow: 1.5px  #ccc;*/
+}
+.slideimg img {
+	border-radius: 5px;
+}
+.slideimg a{
+	text-decoration: none;
+	font-family: microsoft yahei;
+}
+
+.slide h1 {
+	padding-left: 10px;
+	margin-top: 0px;
+	font-size: 25px;
+}
+
+.slidecontent {
+	margin-top: 5px;
+	background-color: #A6282F;
+	font-family: microsoft yahei;
+	color: #fff;
+	height: 440px;
+	/*opacity: 0.5;*/
+	width: 27.77%;
+	float: right;
+	padding-top: 10px;
+	border-radius: 0 5px 5px 0;
+
+}
+.slidecontent p {
+	font-size: 16px;
+	padding: 8px;
+}
+
+.newslist {
+	/*background-color: #A6282F;*/
+}
+
+.block {
+	display: inline-block;
+	width: 45%;
+	margin-top: 15px;
+}
+.block ul {
+	padding: 0;
+	margin-top: 5px;
+}
+.block ul li {
+	width: 85%;
+	list-style: none;
+	margin-top: 3px;
+}
+.block a {
+	text-decoration: none;
+	font-family: microsoft yahei;
+	font-size: 16px;
+}
+
+.block hr {
+	width: 85%;
+	margin-left:-2px;
+	border-top: 1px solid tomato;
+}
+
+.block span{
+	text-align: right;
+}
+
+.block .subtitle {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.block{
+	float: left;
+}
+.block2,.block4 {
+	float: right;
+	margin-right: 55px;
+}
+
+.block1,.block3 {
+	margin-left: 55px;
+}
+.footer {
+	height: 32px;
+	background-color: #183E50;
+	width: 100%;
+	margin-top: 15px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 15px;
+	line-height: 32px;
+	font-family: microsoft yahei;
+	color: #fff;
+	border-radius: 5px;
+}
+.footer a{
+	text-decoration: none;
+	color: #fff;
+}
+.block a {
+	color: #09294A;
+}
+
+.classify {
+
+	min-height: 458px;
+	width: 80%;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 2px 2px #eee;
+}
+
+.detail {
+	
+	min-height: 458px;
+	margin-top: 50px;
+	width: 80%;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 2px 2px #eee;
+
+	/*text-align: center;*/
+}
+.detail h2{
+	text-align: center;
+	margin-top:55px;
+}
+
+.detail .date{
+	text-align: center;
+}
+.pre{
+	float: left;
+}
+.pre a{
+	color: #000;
+	text-decoration: none;
+	font-family: microsoft yahei;
+	font-size: 16px;
+}
+.detail .pre a:hover {
+	color: blue;
+	text-decoration: underline;
+}
+.next{
+	float: right;
+}
+.next a{
+	color: #000;
+	text-decoration: none;
+	font-family: microsoft yahei;
+	font-size: 16px;
+}
+.detail .next a:hover {
+	color: blue;
+	text-decoration: underline;
+}
+.blockclassify{
+	display: inline-block;
+	width: 80%;
+	margin-top: 30px;
+}
+
+.blockclassify a{
+	color: #000;
+	text-decoration: none;
+	font-family: microsoft yahei;
+	font-size: 16px;
+}
+
+.blockclassify a:hover {
+	color: blue;
+	text-decoration: underline;
+}
+
+.blockclassify li{
+	margin-left: 30px;
+}
+
+.slide a{
+	text-decoration: none;
+	color:#fff;
+}
+
+.indextime {
+	float: right;
+}
+
+.search{
+	float: right;
+	/*width: 1200px;*/
+	margin-top: 3px;
+	padding:0px;
+}
+.search input{
+	width: 350px;
+}
