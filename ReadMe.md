@@ -4,8 +4,7 @@
 可以用来应付简单的课程设计啥的。
 
 ## 注意事项
-
-1.先导入DB文件下的数据库
-2.修改Application\Admin\Conf\config.php以及Application\Home\Conf\config.php中的数据库配置部分
-3.后台接口为localhost/mynews/admin.php
-4.前台接口为localhost/mynews/index.php
+1. 先导入DB文件下的数据库
+2. 修改Application\Admin\Conf\config.php以及Application\Home\Conf\config.php中的数据库配置部分
+3. 后台接口为localhost/mynews/admin.php
+4. 前台接口为localhost/mynews/index.php
