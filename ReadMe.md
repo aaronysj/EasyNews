@@ -1,4 +1,4 @@
-## 简易新闻系统
+## 简单的新闻系统
 
 使用[tpadmin](https://github.com/ccsuper/TpAdmin)CMS后台框架([ThinkPHP3.2.3](http://www.thinkphp.cn/))搭建的新闻发布管理系统，
 > 可以用来应付简单的课程设计啥的。
